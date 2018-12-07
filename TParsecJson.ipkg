@@ -1,0 +1,10 @@
+package TParsecJson
+
+sourcedir = src
+modules = TParsecJson
+        , Scientific
+        , Json
+        , TParsecExtras
+          
+pkgs = tparsec
+opts = "--total"
