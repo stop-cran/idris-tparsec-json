@@ -1,4 +1,4 @@
-# Total Json parser in Idris
+# Total Json parser in Idris [![Build Status](https://travis-ci.com/stop-cran/idris-tparsec-json.svg?branch=master)](https://travis-ci.com/stop-cran/idris-tparsec-json)
 
 This is a total Json parser built on [TParsec](https://github.com/gallais/idris-tparsec) library.
 

@@ -1,0 +1,18 @@
+[package]
+name = "stop-cran/idris-tparsec-json"
+version = "0.1.0"
+authors = ["stop-cran"]
+license = "Apachev2.0"
+
+[targets.lib]
+path = "src"
+mods = ["Scientific"
+       ,"TParsecExtras"
+       ,"Json"
+       ,"TParsecJson"
+       ]
+
+opts = ["--total"]
+
+[dev_dependencies]
+"gallais/idris-tparsec" = { git = "https://github.com/gallais/idris-tparsec" }
